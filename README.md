@@ -1,15 +1,9 @@
 # Gas Price Analysis Program
+You can use this program to analyze gas price data by reading monthly gas prices from a file and sorting it by either regular gas price or month. It calculates the average prices for both regular and premium gas, and compares historical price trends over time. Additionally, it can help you identify the months with the lowest gas prices, and lets you search for months where prices were below a user-defined threshold.
 
-This program reads gas price data from a file, sorts and analyzes it, and allows users to interactively evaluate historical trends.
+I created this program since I started driving in the Summer of 2022, when gas prices were nearly $5 in Florida, and to this day, it is listed by AAA as the highest prices ever. I thought it would be useful to have a tool that could not only display the trends but also provide some deeper insights into which months have historically been the cheapest. It was a fun project to build and a great way to practice working with data analysis and file handling.
 
-- **Data Input**: Reads monthly gas prices from a file.
-- **Sorting Options**: Sorts data by regular gas price or by month.
-- **Average Price Calculation**: Computes and displays average regular and premium gas prices.
-- **Historical Comparison**: Analyzes gas price changes over time.
-- **Cheapest Months Identification**: Finds the months with the lowest gas prices.
-- **User-Defined Analysis**: Allows users to search for months with gas prices below a threshold.
-
-## Example Usage
+## Example Output
 ```
 Choose sorting method:
 1 - Sort by Regular Gas Price
